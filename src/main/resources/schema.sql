@@ -13,8 +13,6 @@ VALUES
     ('Monitor LG 27"', 'Monitor UltraHD con tecnología IPS', 349.99, 15),
     ('Teclado Mecánico', 'Teclado mecánico con retroiluminación RGB', 89.99, 20),
     ('Mouse Inalámbrico', 'Mouse ergonómico inalámbrico', 29.99, 30);
-	
-DROP TABLE IF EXISTS marcas;
 
 -- Crear tabla marcas
 CREATE TABLE marcas (
