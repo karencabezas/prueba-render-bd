@@ -1,7 +1,3 @@
--- Drop table if exists
-DROP TABLE IF EXISTS productos;
-
--- Create table
 CREATE TABLE productos (
                            id SERIAL PRIMARY KEY,
                            nombre VARCHAR(255) NOT NULL,
